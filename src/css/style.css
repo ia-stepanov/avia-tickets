@@ -70,6 +70,6 @@ footer {
 }
 
 .content {
-  min-height: calc(100vh - 169px);
+  min-height: calc(100vh - 164px);
   padding: 1.5rem 0 0 0;
 }
