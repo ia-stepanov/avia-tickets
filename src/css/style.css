@@ -36,13 +36,10 @@
 }
 
 .header .currency-select input.select-dropdown {
+  width: 120px;
   margin: 0;
   color: white;
   border-bottom: none;
-}
-
-.header .currency-select input.select-dropdown:focus {
-  width: 120px;
 }
 
 .header .currency-select {
