@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Handlers
   async function initApp() {
     await locations.init();
-    formUI.setAutocompleteData(locations.shortCitiesList);
+    formUI.setAutocompleteData(locations.shortCities);
   }
 
   async function onFormSubmit() {
@@ -36,5 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return_date,
       currency,
     });
+
+    console.log(locations.lastSearch);
   }
 });
