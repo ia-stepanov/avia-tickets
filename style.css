@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .d-flex {
   display: flex;
 }
@@ -58,8 +64,13 @@
   padding: 0 0 0 1.5rem;
 }
 
+.form-section {
+  flex: 1 0 auto;
+}
+
 footer {
   margin-top: 2rem;
+  flex: 0 0 auto;
 }
 
 .page-footer .footer-copyright.pb-1 {
@@ -67,7 +78,6 @@ footer {
 }
 
 .content {
-  min-height: calc(100vh - 164px);
   padding: 1.5rem 0 0 0;
 }
 
